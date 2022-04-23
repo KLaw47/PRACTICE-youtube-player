@@ -162,6 +162,9 @@ const eventListeners = () => {
     console.log("You clicked a filter button", e.target.id);
     // filter on category (either use .filter or a loop)
     // rerender DOM with new array (use the cardsOnDom function)
+    let domString = '';
+    
+    }
   });
 
   // BUTTONS ON CARDS
